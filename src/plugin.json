@@ -1,0 +1,25 @@
+{
+  "type": "panel",
+  "name": "ES Apex Generic",
+  "id": "id-apex-generic",
+  "dataFormats": ["table"],
+  "info": {
+    "description": "ES Apex Generic",
+    "author": {
+      "name": "Nam Le"
+    },
+    "keywords": [],
+    "logos": {
+      "small": "img/gausign.svg",
+      "large": "img/gausign.svg"
+    },
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "6.3.x",
+    "plugins": []
+  }
+}
