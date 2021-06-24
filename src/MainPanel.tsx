@@ -5,6 +5,7 @@ import Chart from 'react-apexcharts';
 import GoIcon from './img/go-icon.png';
 import StopIcon from './img/stop-icon.png';
 import CompanyIcon from './img/Ariadnemaps.png';
+import HostIcon from './img/werk1.png';
 import { processData } from './util/process';
 
 interface Props extends PanelProps<PanelOptions> {}
@@ -85,6 +86,7 @@ export class MainPanel extends PureComponent<Props, State> {
           height={height}
         />
 
+        <img src={HostIcon} style={{ width: 100, height: 35, position: 'absolute', top: 10, right: 0 }} />
         <img src={CompanyIcon} style={{ width: 100, height: 40, position: 'absolute', bottom: 10, right: 0 }} />
       </div>
     );
