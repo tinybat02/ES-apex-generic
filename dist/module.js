@@ -1635,7 +1635,6 @@ function (_super) {
       src: _img_werk1_png__WEBPACK_IMPORTED_MODULE_6___default.a,
       style: {
         width: 100,
-        height: 35,
         position: 'absolute',
         top: 10,
         right: 0

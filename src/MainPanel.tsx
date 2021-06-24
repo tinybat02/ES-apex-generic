@@ -86,7 +86,7 @@ export class MainPanel extends PureComponent<Props, State> {
           height={height}
         />
 
-        <img src={HostIcon} style={{ width: 100, height: 35, position: 'absolute', top: 10, right: 0 }} />
+        <img src={HostIcon} style={{ width: 100, position: 'absolute', top: 10, right: 0 }} />
         <img src={CompanyIcon} style={{ width: 100, height: 40, position: 'absolute', bottom: 10, right: 0 }} />
       </div>
     );
